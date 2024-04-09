@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html , body{
+  height: 100%;
+  width: 100%;
+}
+h1{
+  color: black;
+}
+.main{
+  height: 100vh;
+  width: 100vw;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 40%;
+  width: 100%;
+  background-image: url('sku2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+input{
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 40%;
+  height: 30px;
+  
+}
+ .top button{
+  margin-top: 10px;
+  width: 40%;
+ background-color: rgb(88, 162, 231);
+ border-radius: 10px;
+}
+.down{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width:100%;
+}
+.icon{
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 40%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon h2{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
