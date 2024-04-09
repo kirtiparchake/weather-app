@@ -62,3 +62,11 @@ input{
   font-size: 3rem;
   margin-bottom: 20px;
 }
+.icon .img{
+  height: 90px;
+  background-image: url("/sun.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 190px;
+}

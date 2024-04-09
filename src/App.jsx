@@ -43,7 +43,7 @@ function App() {
      {Object.keys(data).length > 0 &&
      <div className="down">
       <div className="icon">
-        <img src="sun.png" width={'200px'} alt="Sun" />
+        <div className="img"></div>
         <h3>{data?.name}</h3>
         <h2>{((data?.main?.temp) - 273.15).toFixed(2)}°C</h2>
         
