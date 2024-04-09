@@ -22,7 +22,7 @@ h1{
   color: white;
   height: 40%;
   width: 100%;
-  background-image: url('sku2.jpg');
+  background-image: url('/sku2.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
